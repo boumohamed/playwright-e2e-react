@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Form from "./Form";
 
 const Hello = ({ name }) => {
   const [show, setShow] = useState(false);
@@ -14,6 +15,7 @@ const Hello = ({ name }) => {
           <h2>Mohamed Bouzri !</h2>
         </div>
       )}
+      <Form />
     </>
   );
 };
